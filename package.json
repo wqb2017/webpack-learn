@@ -4,7 +4,7 @@
   "description": "webpack",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode=production"
+    "build": "webpack"
   },
   "repository": "https://github.com/wqb2017/webpack-learn.git",
   "author": "wangqibiao",
