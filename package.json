@@ -4,12 +4,15 @@
   "description": "webpack",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "dev": "webpack-dev-server"
   },
   "repository": "https://github.com/wqb2017/webpack-learn.git",
   "author": "wangqibiao",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "webpack-dev-server": "^3.9.0"
+  },
   "devDependencies": {
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"

@@ -2,7 +2,7 @@
  * @Author: WangQiBiao
  * @Date: 2019-11-05 14:20:49
  * @LastEditors: WangQiBiao
- * @LastEditTime: 2019-11-05 14:26:23
+ * @LastEditTime: 2019-11-05 18:04:58
  * @Description:
  */
 module.exports ={
@@ -10,5 +10,9 @@ module.exports ={
   output: {
     filename: 'main.js'
   },
-  mode: 'production'
+  mode: 'development',
+  devServer: {
+    open: true,
+    publicPath: '/dist'
+  }
 }
